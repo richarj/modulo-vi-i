@@ -1,8 +1,4 @@
 from django.shortcuts import render
-import datetime
-
-from .forms import ContactForm
-
 
 def home(request):
     return render(request, 'home.html')
